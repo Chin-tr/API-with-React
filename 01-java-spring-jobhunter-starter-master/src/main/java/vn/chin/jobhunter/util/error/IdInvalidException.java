@@ -1,4 +1,4 @@
-package vn.chin.jobhunter.service.error;
+package vn.chin.jobhunter.util.error;
 
 public class IdInvalidException extends Exception{
     public IdInvalidException(String message) {

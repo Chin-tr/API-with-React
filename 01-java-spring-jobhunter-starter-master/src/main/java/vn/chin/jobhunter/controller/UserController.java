@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import vn.chin.jobhunter.domain.User;
 import vn.chin.jobhunter.service.UserService;
-import vn.chin.jobhunter.service.error.IdInvalidException;
+import vn.chin.jobhunter.util.error.IdInvalidException;
 
 import java.util.List;
 
@@ -12,7 +12,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
