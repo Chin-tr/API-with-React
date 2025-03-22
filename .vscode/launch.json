@@ -19,6 +19,16 @@
             "projectName": "01-java-spring-jobhunter-starter-master",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JobhunterApplication<jobhunter-01-java-spring-jobhunter-starter-master>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "vn.chin.jobhunter.JobhunterApplication",
+            "projectName": "jobhunter-01-java-spring-jobhunter-starter-master",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
